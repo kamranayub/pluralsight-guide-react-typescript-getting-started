@@ -4,8 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "serve build",
+    "watch": "tsc -p . -w",
+    "build": "tsc -p ."
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.8.3",
+    "@types/react-dom": "^16.8.2",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3"
+  },
+  "devDependencies": {
+    "serve": "^10.1.2",
+    "webpack": "^4.29.5"
+  }
 }
