@@ -1,0 +1,23 @@
+{
+  "name": "sample-react-ts-app-scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve",
+    "build": "tsc -p .",
+    "watch": "tsc -p . -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.8.3",
+    "@types/react-dom": "^16.8.2",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "typescript": "^3.3.3"
+  },
+  "devDependencies": {
+    "serve": "^10.1.2"
+  }
+}
