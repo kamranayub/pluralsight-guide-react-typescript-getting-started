@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "serve build",
-    "watch": "tsc -p . -w",
-    "build": "tsc -p ."
+    "start": "serve",
+    "watch": "webpack -w",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "serve": "^10.1.2",
-    "webpack": "^4.29.5"
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
   }
 }
