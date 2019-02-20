@@ -11,6 +11,7 @@ module.exports = {
   entry: "./src/index.tsx",
 
   // Where to compile the bundle
+  // By default the output directory is `dist`
   output: {
     filename: "bundle.js"
   },

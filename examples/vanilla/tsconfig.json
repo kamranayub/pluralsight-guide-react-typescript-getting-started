@@ -1,8 +1,5 @@
 {
   "compilerOptions": {
-    // Allow importing like `import React from 'react'`
-    "allowSyntheticDefaultImports": true,
-
     // No module system, concatenated file
     "module": "none",
 
