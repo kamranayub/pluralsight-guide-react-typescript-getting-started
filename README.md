@@ -8,3 +8,8 @@ See `examples` folder for example projects set up using:
 - Vanilla (without a module loader)
 - With Webpack
 - With Parcel
+
+Examples require:
+
+- Node.js LTS
+- npm and npx installed
